@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    body{
+        background-color: #000000;
+    }
+    
+    .Header{
+        position: absolute;
+        width: 100%;
+        border-bottom: 2px solid #000000;
+      background-color: #000000;
+    }
+    
+    
+    
+    .HeaderWrapper{
+        padding: 15px;
+        max-width: 80rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    
+    }
+    
+    .style .nav{
+        margin: 0% auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px; 
+    }
+    
+    span{
+        color: white;
+        
+    }
+    
+    a{
+        
+        color: rgb(255, 255, 255);
+        margin: 0% auto;
+        max-width: 1280px;
+        padding: 20px;
+    }
+    
+    .style.a{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        
+    }
+
+    button{
+        margin-top: 16px;
+        padding: 10px 10px;
+        width: 130px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+        cursor: pointer;
+        border: 2px solid #ffff;
+        border-radius: 10px;
+    }
+    
+    button:hover{
+        font-weight: 600;
+        border-radius: 10px;
+        transition: 0.3s ease-in-out;
+        animation-name: button;
+        animation-duration: 0.6s;
+        animation-iteration-count: infinite;
+        animation-duration: alternate;
+        animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes button{
+        0%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale(1.05);
+        }
+    }

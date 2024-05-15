@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #000000;
+}
+
+.conteoTextoud p{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+.Mp{
+    color: #000000;
+}
+.conteoTextoud h2{
+    color: rgb(0, 0, 0);
+    align-items: center;
+    padding-top: 25px;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.article{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 250px 16px 64px 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.price{
+    color: red;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+button{
+    margin-top: 16px;
+    padding: 10px 10px;
+    width: 130px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+    cursor: pointer;
+    border: 2px solid #ffff;
+    border-radius: 10px;
+}
+
+button:hover{
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    animation-name: button;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes button{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}

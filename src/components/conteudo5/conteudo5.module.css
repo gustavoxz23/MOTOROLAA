@@ -1,0 +1,38 @@
+
+
+.article5 {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 250px 16px 64px 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.conteoTextoud5 h2{
+    color: rgb(0, 0, 0);
+    align-items: center;
+    padding-top: 25px;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.conteoTextoud5 p{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+   
+    
+}
+
+.pric1{
+    color: red;
+}
+
+.pXt{
+    color: #000000;
+}
